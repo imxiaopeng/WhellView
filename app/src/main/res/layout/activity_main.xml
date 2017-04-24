@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/res/com.mxth.whellview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.mxth.whellview.MainActivity">
+
+    <com.mxth.whellview.WheelView
+        android:id="@+id/wv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:itemNumber="6"
+        app:lineColor="#ff5789DC"
+        app:maskHeight="32dp"
+        app:noEmpty="true"
+        app:normalTextColor="#777"
+        app:normalTextSize="14sp"
+        app:selectedTextColor="#ff000000"
+        app:selectedTextSize="22sp"
+        app:unitHeight="50dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <com.mxth.whellview.WheelView
+        android:id="@+id/wv2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:itemNumber="6"
+        app:lineColor="#ff5789DC"
+        app:maskHeight="32dp"
+        app:noEmpty="true"
+        app:normalTextColor="#777"
+        app:normalTextSize="14sp"
+        app:selectedTextColor="#ff000000"
+        app:selectedTextSize="22sp"
+        app:unitHeight="50dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <com.mxth.whellview.WheelView
+        android:id="@+id/wv3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:itemNumber="6"
+        app:lineColor="#ff5789DC"
+        app:maskHeight="32dp"
+        app:noEmpty="true"
+        app:normalTextColor="#777"
+        app:normalTextSize="14sp"
+        app:selectedTextColor="#ff000000"
+        app:selectedTextSize="22sp"
+        app:unitHeight="50dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</LinearLayout>
